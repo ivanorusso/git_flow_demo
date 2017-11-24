@@ -9,7 +9,7 @@ public class Another {
    * This is a constructor.
    */
   public Another() {
-
+	System.out.println("Another!");
   }
 
   //TODO: Add javadoc comment
