@@ -20,6 +20,6 @@ public class Another {
   public void ciao()
   {
 	  
-	  System.out.println("CIAO!!!!!");
+	  System.out.println("CIAO!!!!! E basta");
   }
 }
