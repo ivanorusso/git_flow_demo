@@ -18,7 +18,7 @@ pipeline
                 }
                 stage('Test On dev7') 
                 {
-                    agent { any }
+                    agent any
                     steps {
                         buildJavascriptApp deploy: false, {
                             notify type: "slack", message: "Build succeeded"
