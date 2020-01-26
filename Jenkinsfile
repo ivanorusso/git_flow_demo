@@ -1,3 +1,5 @@
+@Library('shared_lib_example_1')
+
 pipeline {
     agent {
         docker { image 'node:7-alpine' }
